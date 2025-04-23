@@ -72,6 +72,7 @@ A comprehensive web-based application for managing elections, candidates, and vo
 ├── register.php
 └── logout.php
 
+
 ## Database Schema
 ### Tables
 1. **admins**
