@@ -57,17 +57,19 @@ A comprehensive web-based application for managing elections, candidates, and vo
 │   ├── manage_candidates.php
 │   ├── manage_voters.php
 │   ├── view_results.php
-│   └── create_election.php
-│   └── create_candiadte.php
-│   └── edit_election.php
-│   └── edit_candiadte.php 
+│   ├── create_election.php
+│   ├── create_candidate.php
+│   ├── edit_election.php
+│   └── edit_candidate.php
+│
 ├── voter/
 │   ├── user_dashboard.php
-│   ├── cast_vote.php
+│   └── cast_vote.php
+│
 ├── config.php
 ├── combined.css
 ├── index.php
-└── register.php
+├── register.php
 └── logout.php
 
 ## Database Schema
