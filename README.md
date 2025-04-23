@@ -78,6 +78,7 @@ vote/
 ├── combined.css
 ├── index.php
 └── register.php
+└── logout.php
 ```
 
 ## Database Schema
