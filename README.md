@@ -1,16 +1,13 @@
 # Election Management System
-
 A comprehensive web-based application for managing elections, candidates, and voters with secure voting functionality.
 
 ## Features
-
 ### Admin Features
 - 📊 Dashboard with election statistics
 - 🗳️ Create and manage elections
 - 👥 Manage candidates and voters
 - 📈 View election results
 - 🔒 Secure admin authentication
-
 ### Voter Features
 - 👤 User-friendly voter dashboard
 - 🗳️ Cast votes in active elections
@@ -18,20 +15,17 @@ A comprehensive web-based application for managing elections, candidates, and vo
 - 🔐 Secure voter authentication
 
 ## Tech Stack
-
 ### Frontend
 - HTML5
 - CSS3 (with responsive design)
 - JavaScript
 - Bootstrap/Poppins for styling
-
 ### Backend
 - PHP
 - MySQL Database
 - Apache Server
 
 ## Installation
-
 1. **Prerequisites**
    - XAMPP/WAMP/LAMP server
    - PHP 7.4 or higher
@@ -49,8 +43,7 @@ A comprehensive web-based application for managing elections, candidates, and vo
    # Import the database
    - Open phpMyAdmin
    - Create a new database named 'vote'
-   - Import the database.sql file
-   ```
+   - Import the voting_system.sql file
 
 3. **Configuration**
    - Update database credentials in `config.php`
@@ -58,8 +51,6 @@ A comprehensive web-based application for managing elections, candidates, and vo
    - Ensure proper file permissions
 
 ## Project Structure
-
-```
 vote/
 ├── admin/
 │   ├── admin_dashboard.php
@@ -79,10 +70,8 @@ vote/
 ├── index.php
 └── register.php
 └── logout.php
-```
 
 ## Database Schema
-
 ### Tables
 1. **admins**
    - id, username, password, created_at
@@ -100,7 +89,6 @@ vote/
    - id, voter_id, election_id, candidate_id, vote_date
 
 ## Usage
-
 1. **Admin Access**
    - Login with admin credentials
    - Manage elections, candidates, and voters
@@ -111,15 +99,12 @@ vote/
    - Login to view active elections
    - Cast votes in active elections
 ## Security Features
-
 - 🔐 Password hashing
 - 🔒 Session-based authentication
 - 🛡️ Input validation
 - 🚫 SQL injection prevention
 - 🛡️ XSS protection
-
 ## Responsive Design
-
 - 📱 Mobile-friendly interface
 - 💻 Desktop optimized
 - 📊 Responsive tables and forms
