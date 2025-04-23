@@ -51,7 +51,6 @@ A comprehensive web-based application for managing elections, candidates, and vo
    - Ensure proper file permissions
 
 ## Project Structure
-vote/
 ├── admin/
 │   ├── admin_dashboard.php
 │   ├── manage_elections.php
