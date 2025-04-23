@@ -1,7 +1,3 @@
-Bilkul! Yahaan maine aapke README content ko neat and professional markdown format mein organize kar diya hai:
-
----
-
 # 🗳️ Election Management System  
 A comprehensive web-based application for managing elections, candidates, and voters with secure voting functionality.
 
